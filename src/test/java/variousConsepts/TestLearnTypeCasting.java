@@ -3,12 +3,10 @@ package variousConsepts;
 import java.util.concurrent.TimeUnit;
 
 import org.junit.Before;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class LearnScroll {
-	
+public class TestLearnTypeCasting {
 	WebDriver driver;
     @Before
 	public void init() {
@@ -19,15 +17,5 @@ public class LearnScroll {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
-    public void ScrollTest() {
-    	JavascriptExecutor js = (JavascriptExecutor) driver;
-    	js.executeScript("scroll(0,6000)"); //scrolldown
-    	
-    	
-    	
-    	
-    }
-    
-    
 
 }

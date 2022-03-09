@@ -11,7 +11,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 
-public class LearnDropdown {
+public class TestLearnDropdown {
 	WebDriver driver;
     @Before
 	public void init() {

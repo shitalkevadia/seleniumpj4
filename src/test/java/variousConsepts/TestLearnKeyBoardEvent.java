@@ -12,7 +12,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
-public class LearnKeyBoardEvent {
+public class TestLearnKeyBoardEvent {
 	WebDriver driver;
     @Before
 	public void init() {

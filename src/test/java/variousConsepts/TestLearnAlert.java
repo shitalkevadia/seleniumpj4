@@ -7,7 +7,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class LearnAlert {
+public class TestLearnAlert {
 	WebDriver driver;
 
 	@Before
@@ -29,5 +29,10 @@ public class LearnAlert {
 		
 
 	}
+	public void teardown() {
+		driver.close();
+		driver.quit();
+	}
+	
 
 }

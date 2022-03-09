@@ -9,7 +9,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
-public class LearnMouseHoverOver {
+public class TestLearnMouseHoverOver {
 	WebDriver driver;
     @Before
 	public void init() {
